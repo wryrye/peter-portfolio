@@ -65,7 +65,7 @@ function App() {
 
         <section className="twins grid">
           <div className="twin">
-            <h2 className="content-title">My Philosiphy</h2>
+            <h2 className="content-title">My Philosophy</h2>
             <p>Nowadays living in a society of being judged by almost everything you do can surely affect one’s morality simply because they don’t won’t be made of a mockery. People would rather do nothing than be the one to do something out of the goodness of their heart, it’s always about the “what do I get if I do this?” instead of “I will expect nothing if I do this”. </p>
           </div>
           <div className="twin">
