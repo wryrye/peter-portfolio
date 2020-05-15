@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
+import InstagramEmbed from 'react-instagram-embed';
+
 import './App.css';
 
+
+
 function App() {
+
+  const instaUrls = [
+    'https://www.instagram.com/p/B_3lxf_na6a/',
+    'https://www.instagram.com/p/B_3iWhWHAKa/',
+    'https://www.instagram.com/p/B_vSa5WnNAr/',
+    'https://www.instagram.com/p/B_f-kaUnyJq/',
+  ];
+
   return (
     <div>
       <a className="skip-link screen-reader-text" href="#content">Skip to content</a>
@@ -28,6 +40,10 @@ function App() {
               <p> - Writing sample from 3rd Grade</p>
             </div>
           </div>
+        </section>
+
+        <section className="insta grid2">
+          {instaUrls.map((url) => <InstagramEmbed url={url} />)}
         </section>
 
         <section className="buckets grid">

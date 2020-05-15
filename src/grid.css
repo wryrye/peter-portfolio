@@ -184,6 +184,13 @@ p {
 	border-bottom: 1px solid white;
 }
 
+/* Instagram section */
+
+.insta {
+	background: rgb(223, 184, 250);
+	padding: 2em;
+}
+
 /*--------------------------------------------------------------
 If no grid support, limit width to 50em and center align
 --------------------------------------------------------------*/
@@ -226,6 +233,12 @@ CSS Grid layout for wider screens, when browser supports grid:
 
 			display: grid;
 			grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+		}
+
+		.grid2 {
+			display: grid;
+			grid-template-columns: repeat(4, minmax(50px, 1fr));
+			gap: 1em;
 		}
 
 		/* Center items by placing them in the two center columns: */
